@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style3.css') }}">
+</head>
+<body>
+  <h1>{{ title }}</h1>
+  <table>
+    <tr>
+      <th>ID</th>
+      <th>Имя</th>
+      <th>Возраст</th>
+      <th>Город</th>
+    </tr>
+    {% for user in data %}
+      <tr>
+        <td>{{ user.id }}</td>
+        <td>{{ user.name }}</td>
+        <td>{{ user.age }}</td>
+        <td>{{ user.city }}</td>
+      </tr>
+    {% endfor %}
+  </table>
+</body>
+</html>

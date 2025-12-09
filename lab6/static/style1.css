@@ -1,0 +1,54 @@
+body { 
+  font-family: Arial, sans-serif; 
+  background-color: #f0f0f0; 
+  text-align: center; 
+  padding: 50px; 
+}
+
+h1 { 
+  color: #333; 
+}
+
+.container { 
+  max-width: 800px; 
+  margin: 0 auto; 
+  background: white; 
+  padding: 20px; 
+  border-radius: 8px; 
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+}
+
+.style1 { 
+  color: red; 
+  font-weight: bold; 
+}
+
+.style2 { 
+  color: blue; 
+  font-style: italic; 
+}
+
+.style3 { 
+  color: green; 
+  text-decoration: underline; 
+}
+
+.style4 { 
+  background-color: yellow; 
+  color: black; 
+}
+
+.style5 { 
+  border: 1px dashed black; 
+  padding: 10px; 
+}
+
+.style6 { 
+  text-transform: capitalize; 
+  text-align: right; 
+}
+
+.style7 { 
+  text-shadow: 2px 2px 4px gray; 
+  font-size: 18px; 
+}

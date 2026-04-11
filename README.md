@@ -33,9 +33,10 @@ lab11/
 │   ├── requirements.txt
 │   └── Dockerfile
 └── rust_app/
-├── rust_test_expenses.rs
-├── Cargo.toml
-└── Dockerfile
+    ├── src/
+    │   └── main.rs
+    ├── Cargo.toml
+    └── Dockerfile
 ```
 
 ## Инструкция по сборке проекта

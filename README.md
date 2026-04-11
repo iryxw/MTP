@@ -22,7 +22,6 @@
 - **Rust** (edition 2021) — стандартная библиотека
 - **Docker** + multi-stage build
 - **docker-compose** (v3.9)
-- Финальный образ Rust собран на базе `scratch`
 
 ## Структура проекта
 ```
@@ -57,4 +56,4 @@ docker compose up
 Доступные адреса после запуска:
 
 Python API: http://localhost:5000/todo/api/v1.0/tasks  
-Rust-приложение: http://localhost:8080
+Rust-приложение: http://localhost:8000

@@ -36,7 +36,3 @@ services:
         limits:
           cpus: '0.5'
           memory: 128M
-
-networks:
-  lab11-network:
-    driver: bridge
